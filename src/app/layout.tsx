@@ -17,6 +17,9 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${inter.className} bg-neutral-900 text-white`}>
+        <div className='m-8'>
+          <a className='text-center' href='/'>HOME</a>
+        </div>
         {children}
       </body>
     </html>
