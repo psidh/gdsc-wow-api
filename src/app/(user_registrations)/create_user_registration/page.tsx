@@ -57,7 +57,7 @@ const UserRegistrationForm = () => {
     }
   };
   return (
-    <div className='flex flex-col items-center justify-center py-12 bg-black'>
+    <div className='flex flex-col items-center justify-center py-12 bg-black  h-screen'>
       <form
         onSubmit={handleSubmit}
         className='p-8 rounded-lg shadow-md w-full max-w-md bg-neutral-900 py-24'

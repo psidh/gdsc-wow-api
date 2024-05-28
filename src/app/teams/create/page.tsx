@@ -55,7 +55,7 @@ const Page: React.FC = () => {
   };
 
   return (
-    <div className="py-24 flex items-center justify-center">
+    <div className="py-24 flex items-center justify-center  h-screen">
       <div className="bg-neutral-800 p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl mb-6 text-center">Create Team</h1>
         <form onSubmit={handleSubmit}>

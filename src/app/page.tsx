@@ -8,6 +8,7 @@ export default function Page() {
       <a href='/get_shortlisted_users' className='link'>Get Shortlisted Users</a>
       <a href='/create_user_registration' className='link'>Create User Registration</a>
       <a href='/get_user_registrations' className='link'>Get User Registrations</a>
+      <a href='/accomodation_status' className='link'>Accomodation Status</a>
     </div>
   );
 }
