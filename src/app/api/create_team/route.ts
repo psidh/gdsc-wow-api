@@ -1,10 +1,8 @@
 import { connect } from '@/dbConfig/dbConfig';
 import { NextResponse, NextRequest } from 'next/server';
-import Team from '@/models/teamModel';
-
+import Team from '@/models/team_model';
+connect();
 export async function POST(req: NextRequest) {
-  await connect();
-
   try {
     const { team_name, team_size, team_details, domain, team_lead } =
       await req.json();
